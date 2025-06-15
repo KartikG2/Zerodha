@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 
 const Signup = () => {
-  const navigate = useNavigate();
   const [inputValue, setInputValue] = useState({
     email: "",
     password: "",
@@ -42,7 +41,7 @@ const Signup = () => {
       if (success) {
         handleSuccess(message);
         setTimeout(() => {
-          navigate("/");  // add dashboard link
+          window.location.href = process.env.REACT_APP_DASHBOARD_API_URL; // add dashboard link
         }, 1000);
       } else {
         handleError(message);
@@ -90,7 +89,7 @@ const Signup = () => {
                     />
                   </div>
                   <div className="inputs">
-                    <label htmlFor="email">Username</label>
+                    <label htmlFor="username">Username</label>
                     <input
                     type="text"
                     name="username"
