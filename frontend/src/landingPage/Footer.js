@@ -25,22 +25,22 @@ function Footer() {
               className="d-flex"
             >
               <li className="socialIcons me-3">
-                <a href="#">
+                <a href="https://www.linkedin.com/in/kartikgangavati">
                   <i className="fa-brands fa-x-twitter"></i>
                 </a>
               </li>
               <li className="socialIcons me-3">
-                <a href="#">
+                <a href="https://www.linkedin.com/in/kartikgangavati">
                   <i className="fa-brands fa-square-facebook"></i>
                 </a>
               </li>
               <li className="socialIcons me-3">
-                <a href="#">
+                <a href="https://www.linkedin.com/in/kartikgangavati">
                   <i className="fa-brands fa-instagram"></i>
                 </a>
               </li>
               <li className="socialIcons me-3">
-                <a href="#">
+                <a href="https://www.linkedin.com/in/kartikgangavati">
                   <i className="fa-brands fa-linkedin"></i>
                 </a>
               </li>
@@ -49,19 +49,19 @@ function Footer() {
             <ul style={{ listStyleType: "none" }} className="d-flex p-0">
               <li className="socialIcons me-3">
                 {" "}
-                <a href="#">
+                <a href="https://www.linkedin.com/in/kartikgangavati">
                   <i className="fa-brands fa-youtube"></i>{" "}
                 </a>
               </li>
               <li className="socialIcons me-3">
                 {" "}
-                <a href="#">
+                <a href="https://www.linkedin.com/in/kartikgangavati">
                   <i className="fa-brands fa-whatsapp"></i>
                 </a>
               </li>
               <li className="socialIcons me-3">
                 {" "}
-                <a href="#">
+                <a href="https://www.linkedin.com/in/kartikgangavati">
                   <i className="fa-brands fa-telegram"></i>
                 </a>
               </li>
@@ -73,31 +73,31 @@ function Footer() {
             <ul style={{ listStyleType: "none" }}>
               <li className="nav-head mb-2">Company</li>
               <li>
-                <a href="#">About</a>
+                <a href="/about">About</a>
               </li>
               <li>
-                <a href="#">Products</a>
+                <a href="/Products">Products</a>
               </li>
               <li>
-                <a href="#">Pricing</a>
+                <a href="/Pricing">Pricing</a>
               </li>
               <li>
-                <a href="#">Referal programme</a>
+                <a href="/rp">Referal programme</a>
               </li>
               <li>
-                <a href="#">Careers</a>
+                <a href="/careers">Careers</a>
               </li>
               <li>
-                <a href="#">zerodha tech</a>
+                <a href="/zt">zerodha tech</a>
               </li>
               <li>
-                <a href="#">open source</a>
+                <a href="/os">open source</a>
               </li>
               <li>
-                <a href="#">Press & media</a>
+                <a href="pm">Press & media</a>
               </li>
               <li>
-                <a href="#">Zerodha cares</a>
+                <a href="zc">Zerodha cares</a>
               </li>
             </ul>
           </div>
@@ -107,31 +107,31 @@ function Footer() {
             <ul style={{ listStyleType: "none" }}>
               <li className="nav-head mb-2">Support</li>
               <li>
-                <a href="#">Contact us</a>
+                <a href="/contactus">Contact us</a>
               </li>
               <li>
-                <a href="#">Support portal</a>
+                <a href="/support">Support portal</a>
               </li>
               <li>
-                <a href="#">Z-Connect blog</a>
+                <a href="/blog">Z-Connect blog</a>
               </li>
               <li>
-                <a href="#">List of charges</a>
+                <a href="loc">List of charges</a>
               </li>
               <li>
-                <a href="#">Downloads & resources</a>
+                <a href="downloads">Downloads & resources</a>
               </li>
               <li>
-                <a href="#">Videos</a>
+                <a href="/videos">Videos</a>
               </li>
               <li>
-                <a href="#">Market overview</a>
+                <a href="/market">Market overview</a>
               </li>
               <li>
-                <a href="#">How to file a complaint?</a>
+                <a href="/complain">How to file a complaint?</a>
               </li>
               <li>
-                <a href="#">Status of your complaints</a>
+                <a href="/status">Status of your complaints</a>
               </li>
             </ul>
           </div>
@@ -139,10 +139,10 @@ function Footer() {
             <ul style={{ listStyleType: "none" }}>
               <li className="nav-head mb-2">Account</li>
               <li>
-                <a href="#">Open an account</a>
+                <a href="/openaccount">Open an account</a>
               </li>
               <li>
-                <a href="#">Fund transfer</a>
+                <a href="/funds">Fund transfer</a>
               </li>
             </ul>
           </div>
@@ -206,16 +206,16 @@ function Footer() {
         </div>
         <div className="  footer-graveyard ">
             <ul className=" d-flex extra-links justify-content-center flex-wrap" style={{ listStyleType: "none",paddingLeft:"0px" }}>
-                <li><a href="#">NSE</a></li>
-                <li><a href="#">BSE</a></li>
-                <li><a href="#">MCX</a></li>
-                <li><a href="#">Terms & conditions</a></li>
-                <li><a href="#">Policies & procedures</a></li>
-                <li><a href="#">Privacy policy </a></li>
-                <li><a href="#">Disclosure </a></li>
-                <li><a href="#">For investor's attention </a></li>
-                <li><a href="#">Privacy policy </a></li>
-                <li><a href="#">Investor charter</a></li>
+                <li><a href="/NSE">NSE</a></li>
+                <li><a href="/BSE">BSE</a></li>
+                <li><a href="/MCX">MCX</a></li>
+                <li><a href="/Terms">Terms & conditions</a></li>
+                <li><a href="/Policies">Policies & procedures</a></li>
+                <li><a href="/Privacy">Privacy policy </a></li>
+                <li><a href="/Disclosure">Disclosure </a></li>
+                <li><a href="/investor">For investor's attention </a></li>
+                <li><a href="/Privacy">Privacy policy </a></li>
+                <li><a href="/Investor">Investor charter</a></li>
             </ul>
         </div>
       </div>

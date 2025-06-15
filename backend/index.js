@@ -19,7 +19,7 @@ const Uri = process.env.MONGO_URL;
 
 
 app.use(cors({
-  origin: ["https://zerodhaa-dashboard.netlify.app"],
+  origin: ["http://localhost:3000","https://zerodhaa-dashboard.netlify.app"],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true,
 }));

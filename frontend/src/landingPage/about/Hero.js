@@ -34,13 +34,13 @@ function Hero() {
             community initiatives to empower retail traders and investors.
           </p>
           <p>
-           <a href="">Rainmatter</a>, our fintech fund and incubator, has invested in several
+           <a href="/Rainmatter">Rainmatter</a>, our fintech fund and incubator, has invested in several
             fintech startups with the goal of growing the Indian capital
             markets.
           </p>
           <p>
             And yet, we are always up to something new every day. Catch up on
-            the latest updates on our <a href="">blog</a> or see what the media is <a href=""> saying about
+            the latest updates on our <a href="/blog">blog</a> or see what the media is <a href="/about"> saying about
             us.</a>
           </p>
         </div>
