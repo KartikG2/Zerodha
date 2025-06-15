@@ -1,0 +1,191 @@
+
+.heroImg{
+    height:auto;
+    margin: auto;
+}
+h1{
+    font-size:2.75rem;
+    color: #424242;
+}
+.paragraph{
+    font-size: 1.27rem;
+    font-weight:400;
+    color: #424242;
+}
+
+.btn{
+    padding: 10px 30px 10px 30px;
+    margin-top: 20px;
+    font-size: 1.27rem;
+    font-weight: 500;
+    background-color: #387ED1;
+}
+.btn:hover{
+    background-color: black;
+}
+
+
+/* --------------------------Awards section ----------------- */
+
+.info,li{
+    font-size: 1rem;
+    color: #424242;
+    line-height: 1.5;
+}
+.PressImage{
+    width: 90%;
+}
+
+
+/* ------------------------------------stats section--------------------------------------------- */
+h2{
+    color:#424242;
+    font-size: 1.75rem;
+}
+.ecosystemImage{
+    width: 100%;
+}
+.sub_heading{
+    font-size: 1.25rem;
+    color: #424242;
+}
+.statInfo{
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color:#666;
+}
+ a{
+    color:"#387ED1";
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* ------------------------------Pricing --------------------------- */
+.pricingInfo,p{
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color:#666;
+}
+
+/* navbar-------------------- */
+.nav-link{
+    font-size: 0.9rem;
+    color: #666;
+    font-weight: 400;
+}
+
+.nav-link:hover{
+    color: #387ED1;
+}
+
+
+/*------------------ footer----------------------------- */
+.socialIcons a{
+    font-size:1.25rem;
+    color:#666; 
+}
+
+.nav-head{
+    font-size: 1.27rem;
+}
+
+.links a{
+    color: #666;
+    line-height: 2;
+    font-weight: 400;
+}
+
+.small-paragraphs p{
+    font-size: 0.65rem;
+    color: #9b9b9b;
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+.extra-links a{
+    color: #666;
+    line-height: 2;
+    font-weight: 400;
+    font-size:0.8rem;
+    margin-right: 20px;
+}
+
+a:hover{
+    color: #387ED1;
+}
+
+
+/* --------------------------sign up page------------------------ */
+
+.sm-paragraphs{
+    /* color: #666; */
+    line-height: 2;
+    font-weight: 400;
+    font-size:0.8rem;
+    margin: 0px;
+}
+
+.mobileNo::-webkit-outer-spin-button,
+.mobileNo::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/*------------------------------- tables in pricing --------------------------*/
+
+.table td,.table th{
+    color:#666;
+    padding:1rem 1rem;
+}
+
+/* ------------------------------- Brokrage --------------- */
+.brokrage li {
+    text-align: left;
+    line-height:2;
+    font-size:.9rem;
+}
+
+/* ============================= Support ======================== */
+#supportHero{
+    background:#387ed1;
+    color:white;
+    padding: 50px 0px 50px 0px;
+}
+.Support-headings{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.tickets .support-links{
+    line-height:2;
+    font-weight: 400;
+    padding-left: 30px;
+    color: #387ED1;
+}
+
+.Suport-sub-heading{
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+}
+
+.SupportLinks{
+    color: white;
+    font-weight: 400;
+}
+.SupportLinks:hover{
+    color:#dad2d2;
+}
+.Support-input{
+    padding: 15px;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    font-size:1.1rem ;
+}
+
+
+
