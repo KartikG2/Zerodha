@@ -22,7 +22,7 @@ const navigate = useNavigate();
         navigate("/login");
       }
       const { data } = await axios.post(
-        "http://localhost:8000",
+        `${process.env.REACT_APP_API_URL}`,
         {},
         { withCredentials: true }
       );

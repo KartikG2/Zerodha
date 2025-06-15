@@ -1,11 +1,6 @@
 import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-// import { useEffect, useState } from "react";
-// import { useNavigate,Link} from "react-router-dom";
-// import { useCookies } from "react-cookie";
-// import axios from "axios";
-// import { toast } from "react-toastify";
 
 
 const Menu = () => {
@@ -22,47 +17,6 @@ const Menu = () => {
   const menuClass = "menu";
   const activeMenuClass = "menu selected";
 
-  // const navigate = useNavigate();
-  // const [cookies, removeCookie] = useCookies(["token"]);
-  const [username, setUsername] = useState("");
-
-  // useEffect(() => {
-  //   const verifyCookie = async () => {
-  //     if (!cookies.token) {
-  //       navigate("/login");
-  //       return;
-  //     }
-
-  //     try {
-  //       const { data } = await axios.post(
-  //         "http://localhost:8000/verify",
-  //         {},
-  //         { withCredentials: true }
-  //       );
-  //       const { status, user } = data;
-
-  //       if (status) {
-  //         setUsername(user);
-  //         toast.success(`Hello ${user}`, { position: "top-right" });
-  //       } else {
-  //         removeCookie("token");
-  //         navigate("/login");
-  //       }
-  //     } catch (error) {
-  //       removeCookie("token");
-  //       navigate("/login");
-  //       toast.error("Session expired or server error", { position: "top-right" });
-  //     }
-  //   };
-
-  //   verifyCookie();
-  // }, [cookies, navigate, removeCookie]);
-
-  // const Logout = () => {
-  //   removeCookie("token");
-  //   toast.info("Logged out", { position: "top-right" });
-  //   navigate("/login");
-  // };
 
   return (
     <div className="menu-container">
@@ -116,7 +70,7 @@ const Menu = () => {
         </ul>
         <hr />
         <div className="profile" onClick={handleProfileClick}>
-          <div className="avatar">{username[0]}p</div>
+          <div className="avatar">p</div>
           <button className="logout" ><i className="fa-solid fa-right-from-bracket"></i></button>
         </div>
       </div>
