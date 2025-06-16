@@ -4,7 +4,7 @@ function Brokrage() {
     <div className="container p-5">
       <div className="row text-center p-5 border-top">
         <div className="col-8 ">
-          <a href="">
+          <a href="/calculator">
             <h3 className="fs-5 mb-5">Brokrage Calculator</h3>
           </a>
           <ul className=" brokrage text-muted">
@@ -32,7 +32,7 @@ function Brokrage() {
           </ul>
         </div>
         <div className="col-4">
-          <a href="">
+          <a href="/charges">
             <h3 className="fs-5">List of charges</h3>
           </a>
         </div>

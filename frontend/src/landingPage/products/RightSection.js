@@ -15,7 +15,7 @@ function RightSection({ imageURL, productName, productDesription, learnMore }) {
           </div>
         </div>
         <div className="col-7 p-5">
-          <img src={imageURL} />
+          <img src={imageURL} alt=""/>
         </div>
         
       </div>

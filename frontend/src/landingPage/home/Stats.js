@@ -15,7 +15,7 @@ function Stats() {
                     <p className='statInfo mb-4 '>With initiatives like Nudge and Kill Switch, we don't just facilitate transactions, but actively help you do better with your money.</p>
                 </div>
                 <div className='col-6 p-2 mt-5'>
-                    <img src='media\images\ecosystem.png' alt='ecosystem image' className=' ecosystemImage mt-5'/>
+                    <img src='media\images\ecosystem.png' alt='ecosystem-image' className=' ecosystemImage mt-5'/>
                     <div className='links row ms-5 mt-5'>
                         <div className='col-6'><a href='#'>Explore our products  <i class="fa-solid fa-arrow-right"></i></a></div>
                         <div className='col-6'><a href='#'>Try Kite demo  <i class="fa-solid fa-arrow-right"></i></a></div>

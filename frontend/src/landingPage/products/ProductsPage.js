@@ -50,7 +50,7 @@ function PricingPage() {
         appStore=""
       />
       <p className="text-center mt-5 mb-5 fs-4">
-        Want to know more about our technology stack? Check out the <a href="" className="fs-4">Zerodha.tech</a> blog.
+        Want to know more about our technology stack? Check out the <a href="/tech" className="fs-4">Zerodha.tech</a> blog.
       </p>
       <Universe />
     </>
