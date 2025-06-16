@@ -72,7 +72,7 @@ const Signup = () => {
         <div className="container">
           <div className="row">
             <div className="col-6">
-              <img src="media/images/account_open.svg" alt="Account Open " />
+              <img src="media/images/account_open.svg" alt="Account-Open " />
             </div>
             <div className="col-6">
               <div className="form_container">

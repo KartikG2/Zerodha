@@ -17,11 +17,11 @@ function Stats() {
                 <div className='col-6 p-2 mt-5'>
                     <img src='media\images\ecosystem.png' alt='ecosystem-image' className=' ecosystemImage mt-5'/>
                     <div className='links row ms-5 mt-5'>
-                        <div className='col-6'><a href='#'>Explore our products  <i class="fa-solid fa-arrow-right"></i></a></div>
-                        <div className='col-6'><a href='#'>Try Kite demo  <i class="fa-solid fa-arrow-right"></i></a></div>
+                        <div className='col-6'><a href='/products'>Explore our products  <i class="fa-solid fa-arrow-right"></i></a></div>
+                        <div className='col-6'><a href='/kite'>Try Kite demo  <i class="fa-solid fa-arrow-right"></i></a></div>
                     </div>
                 </div>
-                <div className='col text-center mb-5 mt-4'><img src='media/images/pressLogos.png' className='px-5 '/></div>
+                <div className='col text-center mb-5 mt-4'><img src='media/images/pressLogos.png' alt='' className='px-5 '/></div>
             </div>
        </div>
      );

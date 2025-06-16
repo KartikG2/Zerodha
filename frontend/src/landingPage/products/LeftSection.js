@@ -14,7 +14,7 @@ function LeftSection({
       
       <div className="row">
         <div className="col-7 p-5">
-          <img src={imageURL} />
+          <img src={imageURL} alt=""/>
         </div>
         <div className="col-5 p-5 mt-5">
           <h2>{productName}</h2>
@@ -31,7 +31,8 @@ function LeftSection({
             </a>
             <a href={appStore}>
               <img
-                src="media/images/appstoreBadge.svg" alt=""
+                src="media/images/appstoreBadge.svg" 
+                alt=""
                 style={{ marginLeft: "50px" }}
               />
             </a>
