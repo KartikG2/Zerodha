@@ -67,7 +67,7 @@ function Universe() {
           </p>
         </div>
         <div className="col-4 mt-5">
-          <img src="media/images/dittoLogo.png" style={{ width: "40%" }} alt=" "></img>
+          <img src="media/images/dittoLogo.png" style={{ width: "40%" }} alt="pic"></img>
           <p className="sm-paragraphs mt-3">
             Personalized advice on life
             <br />

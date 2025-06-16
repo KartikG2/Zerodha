@@ -6,7 +6,7 @@ function Team() {
       <div className="row mt-5">
         <div className="col-6 p-5 text-center">
           <img
-            src="media/images/profile-pic.png"
+            src="media/images/profile-pic.png" alt="profilepic"
             style={{ width: "70%" }}
           ></img>
           <h4 className="mt-3">Kartik Gangavati</h4>

@@ -204,7 +204,7 @@ function Footer() {
             create a ticket here.
           </p>
         </div>
-        <div className="  footer-graveyard ">
+        <div className="footer-graveyard">
             <ul className=" d-flex extra-links justify-content-center flex-wrap" style={{ listStyleType: "none",paddingLeft:"0px" }}>
                 <li><a href="/NSE">NSE</a></li>
                 <li><a href="/BSE">BSE</a></li>
