@@ -25,54 +25,58 @@
 ## ✅ How Can you use this Project
 
 ### 1. Clone the Repository
-
-git clone https://github.com/yourusername/zerodhaa-dashboard.git
+git clone https://github.com/yourusername/zerodhaa-dashboard.git  
 cd zerodhaa-dashboard
 
-###2. Install Dependencies
+<br><br>
+### 2. Install Dependencies
 Install for all three directories:
 
-####For Backend:
-cd backend
+#### → For Backend:
+cd backend  
 npm install
 
-####For Frontend:
-cd ../frontend
+#### → For Frontend:
+cd ../frontend  
 npm install
 
-####For Dashboard:
-cd ../dashboard
+#### → For Dashboard:
+cd ../dashboard  
 npm install
 
-###3. Set Up Environment Variables
+<br><br>
+### 3. Set Up Environment Variables
 In the backend folder, create a .env file and add:
 
 PORT=8000
-MONGO_URL=your_mongodb_atlas_connection_string
+MONGO_URL=your_mongodb_atlas_connection_string  
 JWT_SECRET=your_secret_key
 
-###4. Run Locally
+<br><br>
+### 4. Run Locally
 In three different terminals 
 
-####Start Backend:
-cd backend
+#### → Start Backend:
+cd backend  
 node index.js
 
-####Start Frontend:
-cd frontend
+
+#### → Start Frontend:
+cd frontend   
 npm start
 
-####Start Dashboard:
-cd dashboard
+
+#### → Start Dashboard:
+cd dashboard  
 npm start
 
 The frontend will open at http://localhost:3000
 Dashboard may run on a different port (e.g., http://localhost:3001)
 
 
+<br><br>
 
-
-##🔧 How to Contribute
+## 🔧 How to Contribute
 1. Fork the repo
 2. Create a new branch: git checkout -b feature-name
 3. Make your changes
