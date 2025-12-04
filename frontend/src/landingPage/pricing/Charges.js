@@ -2,23 +2,25 @@ import React from "react";
 import '../home/Hero.css';
 function Charges() {
   return (
-    <div className="container p-5 mb-5 ">
-      <h2>Charges for account opening</h2>
-      <table className="table table-striped border my-4 pb-5 table-responsive">
+    <div className="container p-4 p-md-5 mb-5">
+      <h3 className="mb-4 mt-5 fs-4 text-muted">Charges for account opening</h3>
+
+      <div className="table-responsive">
+      <table className="table table-hover table-striped border">
         <thead >
           <tr>
-            <th scope="col" className="fw-medium ps-3">Type of account</th>
-            <th scope="col" className="fw-medium">Charges</th>
+            <th scope="col" className="fw-medium ps-3 text-muted">Type of account</th>
+            <th scope="col" className="fw-medium text-muted">Charges</th>
           </tr>
         </thead>
         <tbody >
           <tr>
             <td>Online account</td>
-            <td><span className="badge text-bg-success rounded px-2">Free</span></td>
+            <td><span className="badge bg-success rounded-pill px-2">Free</span></td>
           </tr>
           <tr>
             <td>Offline account</td>
-            <td><span className="badge text-bg-success">Free</span></td>
+            <td><span className="badge bg-success rounded-pill px-2">Free</span></td>
           </tr>
           <tr>
             <td>NRI account (offline only)</td>
@@ -30,15 +32,18 @@ function Charges() {
           </tr>
         </tbody>
       </table>
+      </div>
 
       <div className="mini-container mt-5 pt-5">
-      <h2>Charges for optional value added services</h2>
-      <table className="table table-striped border mt-4 table-responsive font-muted">
+      <h3 className="mb-4 mt-5 fs-4 text-muted">Charges for optional value added services</h3>
+      
+      <div className="table-responsive">
+      <table className="table table-hover table-striped border">
         <thead >
           <tr>
-            <th scope="col" className="fw-medium ps-3">Services</th>
-            <th scope="col" className="fw-medium ">Billing Frquency</th>
-            <th scope="col" className="fw-medium">Charges</th>
+            <th scope="col" className="fw-medium ps-3 text-muted">Services</th>
+            <th scope="col" className="fw-medium text-muted">Billing Frquency</th>
+            <th scope="col" className="fw-medium text-muted">Charges</th>
           </tr>
         </thead>
         <tbody >
@@ -59,6 +64,7 @@ function Charges() {
           </tr>
         </tbody>
       </table>
+      </div>
       </div>
     </div>
   );

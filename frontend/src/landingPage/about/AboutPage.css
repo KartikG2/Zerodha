@@ -1,0 +1,76 @@
+/* AboutPage.css */
+
+/* General Typography */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #424242;
+}
+
+h1, h2, h4 {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+/* Hero Section Styling */
+.hero-heading {
+  line-height: 1.4;
+  color: #444;
+}
+
+/* Link Styling with Hover Effect */
+a {
+  color: #387ed1;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #22518a;
+}
+
+/* Profile Image Styling */
+.team-avatar {
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  object-fit: cover;
+}
+
+.team-avatar:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* Social Links specific style */
+.social-links a {
+  margin-right: 15px;
+  font-size: 0.95rem;
+}
+
+/* Fade In Animation for content */
+.fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive spacing utility updates */
+@media (max-width: 768px) {
+  .hero-heading {
+    font-size: 1.5rem;
+  }
+  .container {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}

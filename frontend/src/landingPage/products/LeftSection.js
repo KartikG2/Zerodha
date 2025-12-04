@@ -10,32 +10,40 @@ function LeftSection({
   appStore,
 }) {
   return (
-    <div className="container mt-5 border-top">
+    <div className="container mt-5">
       
-      <div className="row">
-        <div className="col-7 p-5">
-          <img src={imageURL} alt=""/>
+      <div className="row align-items-center">
+        <div className="col-12 col-md-7 p-3 p-md-5">
+          <img src={imageURL} alt={productName} className="img-fluid"/>
         </div>
-        <div className="col-5 p-5 mt-5">
-          <h2>{productName}</h2>
-          <p>{productDesription}</p>
-          <div>
-            <a href={tryDemo}>Try Demo</a>
-            <a href={learnMore} style={{ marginLeft: "50px" }}>
-              Learn More
-            </a>
+        <div className="col-12 col-md-5 p-3 p-md-5">
+          <h2 className="mb-4 fw-bold text-dark">{productName}</h2>
+          <p className="text-muted lh-lg">{productDesription}</p>
+
+          <div className="mb-4">
+            {tryDemo && (
+                <a href={tryDemo} className="text-decoration-none">
+                    Try Demo <i className="fa-solid fa-arrow-right"></i>
+                </a>
+            )}
+            {learnMore && (
+                <a href={learnMore} className="text-decoration-none ms-4">
+                    Learn More <i className="fa-solid fa-arrow-right"></i>
+                </a>
+            )}
           </div>
-          <div className="mt-3">
-            <a href={googlePlay}>
-              <img src="media/images/googlePlayBadge.svg" alt=""/>
-            </a>
-            <a href={appStore}>
-              <img
-                src="media/images/appstoreBadge.svg" 
-                alt=""
-                style={{ marginLeft: "50px" }}
-              />
-            </a>
+          
+          <div className="d-flex gap-3">
+            {googlePlay && (
+                <a href={googlePlay}>
+                <img src="media/images/googlePlayBadge.svg" alt="Google Play" style={{height:"40px"}}/>
+                </a>
+            )}
+            {appStore && (
+                <a href={appStore}>
+                <img src="media/images/appstoreBadge.svg" alt="App Store" style={{height:"40px"}}/>
+                </a>
+            )}
           </div>
         </div>
       </div>

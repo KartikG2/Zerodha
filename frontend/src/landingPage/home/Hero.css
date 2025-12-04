@@ -1,191 +1,200 @@
+/* ================= GLOBAL STYLES & TYPOGRAPHY ================= */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
-.heroImg{
-    height:auto;
+body {
+    font-family: 'Inter', sans-serif;
+    color: #424242;
+    overflow-x: hidden; /* Prevents horizontal scroll on mobile */
+}
+
+h1 {
+    font-size: 2.75rem;
+    color: #424242;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    color: #424242;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.sub_heading {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+
+p, .info, .statInfo, .pricingInfo {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #666;
+}
+
+/* Links */
+a {
+    color: #387ED1;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #2b2b2b;
+}
+
+/* ================= ANIMATIONS ================= */
+/* Floating animation for Hero Images */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0px); }
+}
+
+.hero-anim {
+    animation: float 4s ease-in-out infinite;
+}
+
+/* Fade In Up Animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-up {
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+
+/* ================= COMPONENTS ================= */
+
+/* Hero Section */
+.heroImg {
+    width: 100%;
+    max-width: 800px; /* Prevent it from getting too big */
+    height: auto;
     margin: auto;
 }
-h1{
-    font-size:2.75rem;
-    color: #424242;
-}
-.paragraph{
-    font-size: 1.27rem;
-    font-weight:400;
-    color: #424242;
-}
 
-.btn{
-    padding: 10px 30px 10px 30px;
-    margin-top: 20px;
-    font-size: 1.27rem;
-    font-weight: 500;
+.btn-primary {
     background-color: #387ED1;
-}
-.btn:hover{
-    background-color: black;
-}
-
-
-/* --------------------------Awards section ----------------- */
-
-.info,li{
-    font-size: 1rem;
-    color: #424242;
-    line-height: 1.5;
-}
-.PressImage{
-    width: 90%;
+    border: none;
+    padding: 12px 35px;
+    font-size: 1.2rem;
+    border-radius: 3px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-
-/* ------------------------------------stats section--------------------------------------------- */
-h2{
-    color:#424242;
-    font-size: 1.75rem;
-}
-.ecosystemImage{
-    width: 100%;
-}
-.sub_heading{
-    font-size: 1.25rem;
-    color: #424242;
-}
-.statInfo{
-    font-size: 1.1rem;
-    line-height: 1.8;
-    color:#666;
-}
- a{
-    color:"#387ED1";
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: 500;
-}
-
-/* ------------------------------Pricing --------------------------- */
-.pricingInfo,p{
-    font-size: 1.1rem;
-    line-height: 1.8;
-    color:#666;
-}
-
-/* navbar-------------------- */
-.nav-link{
-    font-size: 0.9rem;
-    color: #666;
-    font-weight: 400;
-}
-
-.nav-link:hover{
-    color: #387ED1;
-}
-
-
-/*------------------ footer----------------------------- */
-.socialIcons a{
-    font-size:1.25rem;
-    color:#666; 
-}
-
-.nav-head{
-    font-size: 1.27rem;
-}
-
-.links a{
-    color: #666;
-    line-height: 2;
-    font-weight: 400;
-}
-
-.small-paragraphs p{
-    font-size: 0.65rem;
-    color: #9b9b9b;
-    line-height: 1.8;
-    font-weight: 400;
-}
-
-.extra-links a{
-    color: #666;
-    line-height: 2;
-    font-weight: 400;
-    font-size:0.8rem;
-    margin-right: 20px;
-}
-
-a:hover{
-    color: #387ED1;
-}
-
-
-/* --------------------------sign up page------------------------ */
-
-.sm-paragraphs{
-    /* color: #666; */
-    line-height: 2;
-    font-weight: 400;
-    font-size:0.8rem;
-    margin: 0px;
-}
-
-.mobileNo::-webkit-outer-spin-button,
-.mobileNo::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-
-
-/*------------------------------- tables in pricing --------------------------*/
-
-.table td,.table th{
-    color:#666;
-    padding:1rem 1rem;
-}
-
-/* ------------------------------- Brokrage --------------- */
-.brokrage li {
-    text-align: left;
-    line-height:2;
-    font-size:.9rem;
-}
-
-/* ============================= Support ======================== */
-#supportHero{
-    background:#387ed1;
-    color:white;
-    padding: 50px 0px 50px 0px;
-}
-.Support-headings{
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.tickets .support-links{
-    line-height:2;
-    font-weight: 400;
-    padding-left: 30px;
-    color: #387ED1;
-}
-
-.Suport-sub-heading{
-    font-weight: 400;
-    font-size: 20px;
-    color: #424242;
-}
-
-.SupportLinks{
+.btn-primary:hover {
+    background-color: #2b6cb8;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     color: white;
-    font-weight: 400;
 }
-.SupportLinks:hover{
-    color:#dad2d2;
+
+/* Pricing Section Cards */
+.pricing-box {
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    height: 100%; /* Equal height */
 }
-.Support-input{
-    padding: 15px;
+
+.pricing-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+
+/* ------------------------- support page styles --------*/
+/* ================= SUPPORT PAGE STYLES ================= */
+
+#supportHero {
+    background-color: #387ED1; /* Zerodha Support Blue */
+    color: white !important;
+    min-height: 400px;
+}
+
+#supportHero h4, #supportHero h5, #supportHero a {
+    color: white;
+}
+
+#supportHero a:hover {
+    color: #f1f1f1;
+    text-decoration: underline;
+}
+
+/* Search Bar */
+.support-search-input {
     width: 100%;
+    padding: 15px 20px;
     border-radius: 3px;
     border: none;
-    font-size:1.1rem ;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    outline: none;
 }
 
+.support-search-input:focus {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
 
+/* Ticket Categories */
+.support-category-heading a {
+    color: #424242;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.support-category-heading a:hover {
+    color: #387ED1;
+}
+
+.support-list-link {
+    display: block; /* Makes links sit on their own line */
+    color: #387ED1;
+    text-decoration: none;
+    line-height: 2.2; /* Better spacing than <br> */
+    font-size: 0.95rem;
+}
+
+.support-list-link:hover {
+    text-decoration: underline;
+    color: #2b6cb8;
+}
+/* ================= RESPONSIVENESS (MOBILE) ================= */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem; /* Smaller H1 on mobile */
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        padding: 20px !important; /* Reduce padding on mobile */
+    }
+
+    .p-5 {
+        padding: 1.5rem !important; /* Override Bootstrap p-5 */
+    }
+
+    .text-center-mobile {
+        text-align: center;
+    }
+    
+    /* Reverse order for specific sections if needed */
+    .mobile-reverse {
+        flex-direction: column-reverse;
+    }
+}
 
